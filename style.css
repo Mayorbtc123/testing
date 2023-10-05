@@ -1,0 +1,363 @@
+::before ::after {
+  padding: 0%;
+  margin: 0%;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 90px;
+}
+.image {
+  margin-left: 10px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  margin-left: 40px;
+  align-items: center;
+}
+.details-one {
+  display: flex;
+  align-items: center;
+}
+.fan {
+  font-size: 70px;
+}
+
+.fans {
+  font-size: 25px;
+}
+
+.form {
+  padding-left: 90px;
+  display: flex;
+  background-color: aliceblue;
+  margin: 20px 50px;
+  border-radius: 30px;
+  justify-content: space-between;
+}
+
+.image-three {
+  text-align: center;
+}
+ol {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+  margin-top: 70px;
+  background-color: goldenrod;
+  padding: 30px;
+}
+.head-one {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 110px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.head-two {
+  position: absolute;
+  margin-right: 70px;
+  padding-bottom: 10px;
+}
+
+.head-three {
+  padding-right: 80px;
+}
+.sec-three {
+  display: flex;
+  align-items: center;
+}
+.rightarrow {
+  margin-left: 80px;
+}
+
+.details {
+  display: flex;
+  gap: 40px;
+  padding: 10px 110px;
+}
+
+.right {
+  margin-left: 150px;
+}
+
+.left {
+  margin-left: 160px;
+}
+.sale{
+  display: flex;
+  background-color: rgba(224, 195, 64, 1);
+}
+
+
+
+.pay{
+   margin-left: 100px; 
+  padding-top: 40px;
+  
+}
+.big{
+  height: 16px;
+
+}
+
+.favour{
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 50px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.small{
+  font-size: 30px;
+  position: absolute;
+
+}
+.instagram{
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  margin-left: 50px;
+  padding: 30px;
+}
+
+.dat{
+  display: flex;
+  align-items: center; 
+  /* margin-left: 100px; */
+  justify-content: space-between;
+}
+
+ .arro{
+  margin-right: 26%;
+}
+.arr{
+  margin-left: 20%;
+} 
+
+.wrap{
+  overflow: hidden;
+}
+.Google-link{
+  display: flex;
+  gap: 15px;
+}
+
+.Ap{
+  display: flex;
+  align-items: center;
+  /* margin-left: 40px; */
+  justify-content: center;
+  gap: 200px;
+}
+
+.promo{
+  text-align: center;
+ padding: 30px;
+  background-color: rgba(229, 198, 67, 1);
+}
+.input-button{
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+.promo input{
+ width: 260px; 
+ border-radius: 10px; 
+  font-size: 17px;
+  border-color: black;
+border: none;
+} 
+
+.send-button button{
+background-color: black;
+  color: white;
+  width: 80px;
+  height: 42px;
+  position: relative;
+  right: 90px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.h1{
+  font-size: 40px;
+}
+.pone{
+  font-size: 25px;
+}
+
+.overal{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 40px;
+  background-color: black;
+color: white; 
+}
+
+
+@media (max-width: 488px){
+ .overal{
+  display: flex;
+  flex-direction: column;
+ }
+ 
+.mayor{
+  width: 10px;
+}
+
+  ul {
+    display: none;
+  }
+  .list {
+    padding: 0px;
+  }
+
+  .details {
+    padding: 0px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .sec-one {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec-one img {
+    width: 80%;
+  }
+  .form {
+    flex-direction: column;
+    padding: 0% 0%;
+    margin: 0px 0px;
+    margin-right: 10px;
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+  .details h1 {
+    font-size: 40px;
+  }
+  .details p {
+    font-size: 13px;
+  }
+  .image-two {
+    width: 50vw;
+  }
+
+  ol {
+    flex-direction: column;
+    padding-right: 100px;
+    /* max-width: 50px; */
+    margin-right: 5px;
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+
+  .head-one {
+    height: 20px;
+  }
+  .head-two {
+    font-size: 20px;
+  }
+
+  .sec sec-on {
+    width: 30%;
+  }
+
+
+.sale{
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.instagram{
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  overflow: hidden;
+   /* align-items: center;  */
+   margin: 0% 0%;
+   padding: 0% 0%;
+   margin: 0% 0%;
+   
+}
+
+
+.insta-one img{
+  width: 95vw;
+}
+.insta-one{
+  overflow: hidden;
+}
+.insta-two img{
+  width: 95vw;
+}
+.insta-two{
+  width: 100vw;
+  overflow: hidden;
+}
+.insta-two h3{
+margin-right: 120px;
+
+
+}
+
+.Ap{
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.download h2{
+font-size: 10%;
+
+}
+.Google-link img {
+  width: 80px;
+}
+
+.mobile-app img{
+  height: 60vh;
+}
+.promo{
+  width: 100%;
+}
+
+.input-button input{
+width: 100px;
+}
+.promo{
+  width: 100%;
+}
+.promo input{
+  width: 250px;
+}
+.promo h1{
+  font-size: 20px;
+}
+.promo .texts .h1{
+  font-size: 17px !important;
+}
+.promo .texts .pone{
+  font-size: 12px !important;
+  width: 100%;
+}
+.texts{
+  text-align: center;
+  margin: auto;
+}
+}
